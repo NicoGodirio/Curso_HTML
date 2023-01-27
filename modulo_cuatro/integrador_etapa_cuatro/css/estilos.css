@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    border-top: 5px solid #fcee21;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h1{
+    font-size: 64px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+h1, strong{
+    font-weight: 700;
+}
+
+h1 strong{
+    font-family: 'coiny', cursive;
+    font-size: 117px;
+}
+
+img{
+    width: 40%;
+    margin: 20px;
+}
+
+nav h3{
+    font-family: 'coiny', cursive;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+nav ul{
+    font-size: 32px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+.presentacion{
+    display: flex;
+}
+
+.presentacion div{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion div h4{
+    font-size: 27px;
+    display: inline;
+    background-color: #fcee21;
+    
+}
+
+div p{
+    font-size: 32px;
+}
+
+div strong{
+    font-weight: 700;
+}
+
+.infoEllas{
+    display: flex;
+    margin-top: 50px;
+}
+
+.infoEllas h3{
+    font-weight: 900;
+    font-size: 35px;
+    background-color: #fcee21;
+    display: inline;
+}
+
+.infoEllas p{
+    font-size: 28px;
+    margin: 10px 50px 20px 0;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.servicios h3{
+    font-weight: 700;
+    font-size: 55px;
+    margin: 0 0 30px 160px;
+}
+
+.servicios ol{
+    font-size: 32px;
+    margin-left: 200px;
+    list-style-position: inside;    
+}
+
+li{
+    margin: 10px 0;
+}
+
+.servicios ol li:last-child{
+    background-color: #fcee21;
+}
+
+li:last-child::marker{
+    font-weight: 900;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contacto div h4{
+    font-weight: 700;
+    font-size: 68px;
+    display: inline;
+    background-color: black;
+    color: white;
+}
+
+.contacto div p{
+    font-weight: 700;
+    font-size: 44px;
+    background-color: #fcee21;
+    margin: 30px 0;
+    display: inline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+input, textarea{
+    width: 500px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+textarea{
+    height: 200px;
+}
+
+label{
+    margin-top: 20px;
+}
+
+label span{
+    color: red;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+button{
+    font-weight: 700;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 33px;
+    color: #808080;
+    margin-top: 50px;
+}
+
+footer div p{
+    margin-top: 15px;
+}
+
+footer div img{
+    width: 100px;
+}
+
+.pieDePagina{
+    font-family: 'Coiny', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    justify-content: flex-start;
+    background-color: #fcee21;
+    align-items: center;
+}
+
+.pieDePagina h3, .pieDePagina a{
+    margin: 0 50px;
+    color: black;
+}
+
+.pieDePagina a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+
+
+}

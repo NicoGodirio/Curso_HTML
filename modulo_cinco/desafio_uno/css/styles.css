@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    border-top: 20px solid #3957F1;
+}
+
+#logo{
+    width: 5%;
+}
+
+a{
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+.activo{
+    font-weight: 700;
+}
+
+nav{
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #0a2ff1;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+
+div p{
+    font-weight: 400;
+    font-size: 35px;
+    color: #04146c;
+}

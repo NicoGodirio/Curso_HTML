@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fontMuseo{
+    font-family: 'MuseoModerno', cursive;
+}
+
+.fontAsap{
+    font-family: 'Asap', sans-serif;
+}
+
+.colorPpal{
+    color: #0a2ff1;
+}
+
+.colorSrio{
+    color: #8a9af1;
+}
+
+.colorLetras{
+    color: #04146c;
+}
+
+.conteiner{
+    background-color: #edf7ff;
+    border-top: 5px solid #8a9af1;
+
+}
+.contenido{
+    margin-left: 100px;
+    margin-right: 35%
+}
+.contenido h1{
+    font-size: 117px;
+}
+
+.contenido h2{
+    font-size: 52px;
+}
+
+.modoMendoza{
+    font-size: 198px;
+    margin: 2px;
+
+}
+
+.parrafos p{
+    margin: 20px 260px 20px 0;
+    font-size: 33px;
+}
+
+li{
+    font-size: 33px;
+}
+
+ul{
+    font-size: 48px;
+}
